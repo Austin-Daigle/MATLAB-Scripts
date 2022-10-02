@@ -17,3 +17,24 @@ various shifts in a factory.
 Given a vector of integer values this function will return the product of
 only the odd, positive values found in the vector. If the vector contains
 no odd, positive values, the function will return the value 1.
+
+## [reskipfact.m](https://github.com/Austin-Daigle/MATLAB-Scripts/blob/main/reskipfact.m)
+This function takes the skip factorial of a number using a given number
+to skip by (instead of 1).
+
+## [revalpoly.m](https://github.com/Austin-Daigle/MATLAB-Scripts/blob/main/revalpoly.m)
+Input only the coeffients of the polynomial into a vector to evalute with
+your x-value (xval).
+Example: f(x) = 1+x+x^2+82(x)^2 with an x value of -3 would be entered 
+as revalpoly([1,1,1,82],-3)
+
+This method is more efficient in evaluating polynomials with a given
+x-value by using an adapted version of synthetic division. This function 
+requires polynomials to be entered as coefficients into a clisttor and the 
+x-value must be expresse as ax x-value (constant).
+
+## [tritriagain.m](https://github.com/Austin-Daigle/MATLAB-Scripts/blob/main/tritriagain.m)
+This function recursively solves for the sequence of intergers on any
+level of the trinomial triangle with a given nonnegative integer. 
+this function will return a negative -1 if the input for the variable k
+is either a noninteger and/or is negative.
